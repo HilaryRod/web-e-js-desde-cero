@@ -1,0 +1,15 @@
+console.log("Identificacion de tipos de datos")
+console.log("la palabra redonda es dato de tipo:",typeof "redonda")
+console.log("42 es un dato de tipo:", typeof 42)
+console.log("veinticinco es un dato de tipo:", typeof 'veinticinco')
+console.log("-666 es un dato de tipo:", typeof -666)
+console.log("true es un dato de tipo:", typeof true)
+console.log("0 es un dato de tipo:", typeof 0)
+console.log("null es un dato de tipo:", typeof null)
+console.log("undefined es un dato de tipo:", typeof undefined)
+console.log("False es un dato de tipo", typeof false)
+console.log("3+4 es un dato de tipo:", typeof (3+4))
+let sinValor
+let nombres=["pancho","juan"]
+console.log ("La variable sinValor es de tipo:",typeof sinValor)
+console.log ("La variable nombres es de tipo:",typeof nombres)
