@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Libros</title>
+</head>
+<body>
+    <h1>Mi lista de libros</h1>
+    <form onsubmit="event.preventDefault(); agregarLibro();">
+        <label>Agregar un nuevo libro a mi lista de leidos</label>
+        <br>
+        <label for="libro">Nombre del libro</label>
+        <input type="text" id="libro" name="libro" required>
+        <br>
+        <button type="submit">AGREGAR LIBRO</button>
+    </form>
+    <h3>Ver mis libros agregados</h3>
+    <button onclick="mostrarLibrosLeidos()">MOSTRAR LIBROS</button>
+    <h4 id="librosleidos"></h4>
+    <script src="funciones.js"></script>
+</body>
+</html>
